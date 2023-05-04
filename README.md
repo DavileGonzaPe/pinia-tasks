@@ -1,29 +1,42 @@
-# pinia-tasks
+# Pinia Tasks Application
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a Vue 3 application built with Vite and Pinia for state management. The app allows users to manage tasks, with features like adding, editing, and completing tasks.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Vue 3 for building modern, reactive UI components
+- Vite for fast development and optimized production builds
+- Pinia for efficient state management
+- Recommended IDE setup: VSCode with Volar and TypeScript Vue Plugin
 
-## Customize configuration
+## Installation
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Prerequisites
 
-## Project Setup
+- Node.js v12+ installed
 
-```sh
-npm install
-```
+### Steps
 
-### Compile and Hot-Reload for Development
+1. Clone the repo.
+<br>git clone https://github.com/DavileGonzaPe/pinia-tasks.git
 
-```sh
-npm run dev
-```
+2. Navigate to the project directory.
+<br>cd pinia-tasks
 
-### Compile and Minify for Production
+3. Install dependencies.
+<br>npm install
 
-```sh
-npm run build
-```
+
+## Usage
+
+### Development
+
+- Run the development server with hot-reloads.
+<br>npm run serve
+
+- Access the app at `http://localhost:8080` in your browser.
+
+### Production
+
+- Compile and minify the app for production.
+<br>npm run build
